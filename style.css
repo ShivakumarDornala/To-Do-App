@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #c2c2c2;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#5adbff,#06a77d);
+    border-radius: 10px;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #450386 0%,#cc24ff 45%, #fc4bf3 100%);
+}
+header{
+    position: relative;
+    background-color: #21a7a9;
+    left: 35%;
+    top: 60px;
+    padding: 10px;
+    width: 450px;
+    border-radius: 15px;
+}
+p{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+.task-img{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.todo-input{
+    max-width: 700px;
+    width: 100%;
+    margin: 100px auto 20px;
+    padding: 40px;
+    border-radius: 10px;
+    border: #fff solid 1px;
+    background-color: #fbe4ff;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0px 0px 0px 10px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+input{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 20px;
+    color: black;
+}
+button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #750fdc;
+    color: #ffffff;
+}
+ul li{
+    position: relative;
+    top: 5px;
+    padding: 10px 83px 10px 40px;
+    list-style: none;
+    font-size: 18px;
+    user-select: none;
+    cursor: pointer;
+    background-color: #e7e7e7;
+    border-radius: 15px;
+    border: #e863ff solid 1px;
+    color: rgba(0, 0, 0, 0.79);
+    margin-bottom: 10px;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+    top: 10px;
+    left: 5px;
+}
+ul li.checked{
+    color: #5a5a5a;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(images/checked.png);
+}
+ul li .delete{
+    position: absolute;
+    color: #ffffff;
+    font-size: 16px;
+    top: 8px;
+    height: 30px;
+    width: 60px;
+    line-height: 30px; 
+    text-align: center; 
+    cursor: pointer;
+    right: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+ul li .edit{
+    position: absolute;
+    font-size: 16px;
+    top: 8px;
+    height: 30px;
+    width: 50px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    right: 75px;
+    background-color: green;
+    border-radius: 10px;
+}
+ul li .delete:hover{
+    background-color: rgba(255, 0, 0, 0.586);
+}
+ul li .edit:hover{
+    background-color: rgba(0, 128, 0, 0.586);
+}
+.footer{
+    position: absolute;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer span{
+    color: #7b2cbf;
+}
+
+
+/* ####################Media Quires################ */
+
+
+/* Media Query for iPhone SE */
+
+@media (max-width: 375px) {
+    /* Your styles for iPhone SE */
+  
+    body {
+      background: linear-gradient(135deg, #cc24ff 0%, #fc4bf3 45%, #450386 100%);
+    }
+  
+    header {
+      left: 0;
+      top: 20px;
+      padding: 10px;
+      width: 100%;
+    }
+  
+    p {
+      font-size: 30px;
+    }
+  
+    .todo-input {
+      margin: 50px auto 20px;
+      padding: 20px;
+    }
+  
+    .row {
+      padding: 0px 10px 0px 10px;
+    }
+  
+    input {
+      padding: 8px;
+    }
+  
+    button {
+      font-size: 18px;
+      padding: 8px 20px;
+    }
+  
+    ul li {
+      padding: 8px 50px 8px 30px;
+    }
+  
+    ul li::before {
+      height: 20px;
+      width: 20px;
+    }
+  
+    ul li .delete {
+      height: 25px;
+      width: 50px;
+    }
+  
+    ul li .edit {
+      height: 25px;
+      width: 40px;
+    }
+  
+    .footer {
+      top: 30px;
+    }
+  }
