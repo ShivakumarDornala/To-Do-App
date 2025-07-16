@@ -18,7 +18,7 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #450386 0%,#cc24ff 45%, #fc4bf3 100%);
+    background: linear-gradient(135deg, #450386 0%,#b05dca 45%, #fc4bf3 100%);
 }
 header{
     position: relative;
