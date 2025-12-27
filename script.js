@@ -33,7 +33,6 @@ listTasks.addEventListener(
       e.target.parentElement.remove();
       saveData();
     } else if (e.target.classList.contains("edit")) {
-      // Edit functionality
       let li = e.target.parentElement; // Get the parent <li> element
       let currentText = li.firstChild.textContent; // Get the current task text
       let newValue = prompt("Edit your task:", currentText); // Prompt for new text

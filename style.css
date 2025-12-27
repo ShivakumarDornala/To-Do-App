@@ -55,7 +55,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #faf2f2;
   padding: 0px 0px 0px 10px;
   margin-bottom: 25px;
   border-radius: 20px;
@@ -67,7 +67,7 @@ input {
   outline: none;
   background: transparent;
   border-radius: 20px;
-  color: black;
+  color: #000000d0;
 }
 button {
   border: none;
