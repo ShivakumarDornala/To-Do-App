@@ -67,7 +67,7 @@ input {
   outline: none;
   background: transparent;
   border-radius: 20px;
-  color: #000000d0;
+  color: #050101d0;
 }
 button {
   border: none;
@@ -76,7 +76,7 @@ button {
   padding: 10px 30px;
   cursor: pointer;
   border-radius: 20px;
-  background-color: #7719d4;
+  background-color: #861af2;
   color: #ffffff;
 }
 ul li {
