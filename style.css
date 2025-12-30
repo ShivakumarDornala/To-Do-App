@@ -62,7 +62,7 @@ p {
 }
 input {
   flex: 1;
-  padding: 10px;
+  padding: 11px;
   border: none;
   outline: none;
   background: transparent;
@@ -77,7 +77,7 @@ button {
   cursor: pointer;
   border-radius: 20px;
   background-color: #861af2;
-  color: #ffffff;
+  color: #ded8d8ff;
 }
 ul li {
   position: relative;
@@ -89,7 +89,7 @@ ul li {
   cursor: pointer;
   background-color: #e7e7e7;
   border-radius: 15px;
-  border: #e863ff solid 1px;
+  border: #e155f9 solid 1px;
   color: rgba(0, 0, 0, 0.79);
   margin-bottom: 10px;
 }
