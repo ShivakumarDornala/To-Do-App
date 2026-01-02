@@ -123,7 +123,7 @@ ul li .delete {
   text-align: center;
   cursor: pointer;
   right: 10px;
-  background-color: red;
+  background-color: rgb(255, 1, 1);
   border-radius: 10px;
 }
 ul li .edit {
@@ -136,7 +136,7 @@ ul li .edit {
   text-align: center;
   cursor: pointer;
   right: 75px;
-  background-color: green;
+  background-color: rgb(3, 140, 3);
   border-radius: 10px;
 }
 ul li .delete:hover {
