@@ -89,7 +89,7 @@ ul li {
   cursor: pointer;
   background-color: #e7e7e7;
   border-radius: 15px;
-  border: #e155f9 solid 1px;
+  border: #e055f9f2 solid 1px;
   color: rgba(0, 0, 0, 0.79);
   margin-bottom: 10px;
 }
@@ -164,7 +164,7 @@ ul li .edit:hover {
   /* Your styles for iPhone SE */
 
   body {
-    background: linear-gradient(135deg, #cc24ff 0%, #fc4bf3 45%, #450386 100%);
+    background: linear-gradient(135deg, #cb28fd 0%, #fc4bf3 45%, #450386 100%);
   }
 
   header {
