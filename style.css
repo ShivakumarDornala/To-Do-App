@@ -76,8 +76,8 @@ button {
   padding: 10px 30px;
   cursor: pointer;
   border-radius: 20px;
-  background-color: #861af2;
-  color: #ded8d8ff;
+  background-color: #820ef7ff;
+  color: rgb(213, 206, 206);
 }
 ul li {
   position: relative;
@@ -87,10 +87,10 @@ ul li {
   font-size: 18px;
   user-select: none;
   cursor: pointer;
-  background-color: #e7e7e7;
+  background-color: #d6d0d0;
   border-radius: 15px;
-  border: #e055f9f2 solid 1px;
-  color: rgba(0, 0, 0, 0.79);
+  border: #e052f9f2 solid 1px;
+  color: rgba(5, 4, 4, 0.79);
   margin-bottom: 10px;
 }
 ul li::before {
@@ -123,7 +123,7 @@ ul li .delete {
   text-align: center;
   cursor: pointer;
   right: 10px;
-  background-color: rgb(255, 1, 1);
+  background-color: rgb(246, 3, 3);
   border-radius: 10px;
 }
 ul li .edit {
@@ -140,7 +140,7 @@ ul li .edit {
   border-radius: 10px;
 }
 ul li .delete:hover {
-  background-color: rgba(255, 0, 0, 0.586);
+  background-color: rgba(245, 4, 4, 0.586);
 }
 ul li .edit:hover {
   background-color: rgba(0, 128, 0, 0.586);
